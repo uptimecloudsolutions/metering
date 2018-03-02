@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Meters" max_length="40" name="x_79929_metering_meters" type="collection">
+        <element label="Account" max_length="32" name="account" reference="x_79929_metering_accounts" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="account"/>
+        </index>
+    </element>
+</database>

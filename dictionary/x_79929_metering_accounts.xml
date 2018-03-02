@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="ast_contract" label="Accounts" max_length="40" name="x_79929_metering_accounts" type="collection"/>
+</database>

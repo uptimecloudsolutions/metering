@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Import_Meter_Accounts" max_length="40" name="x_79929_metering_import_meter_accounts" type="collection">
+        <element attributes="import_attribute_name=Account Format,edge_encryption_enabled=true" label="Account Format" max_length="40" name="u_account_format" type="string"/>
+        <element attributes="import_attribute_name=Account Number,edge_encryption_enabled=true" label="Account Number" max_length="40" name="u_account_number" type="string"/>
+        <element attributes="import_attribute_name=Account Status,edge_encryption_enabled=true" label="Account Status" max_length="40" name="u_account_status" type="string"/>
+        <element attributes="import_attribute_name=Bill Cycle,edge_encryption_enabled=true" label="Bill Cycle" max_length="40" name="u_bill_cycle" type="string"/>
+        <element attributes="import_attribute_name=Business Unit,edge_encryption_enabled=true" label="Business Unit" max_length="40" name="u_business_unit" type="string"/>
+        <element attributes="import_attribute_name= Connected to a remote read meter,edge_encryption_enabled=true" label=" Connected to a remote read meter " max_length="40" name="u_connected_to_ote_read_meter" type="string"/>
+        <element attributes="import_attribute_name=Consumers First Address,edge_encryption_enabled=true" label="Consumers First Address" max_length="44" name="u_consumers_first_address" type="string"/>
+        <element attributes="import_attribute_name=Consumers Second Address,edge_encryption_enabled=true" label="Consumers Second Address" max_length="40" name="u_consumers_second_address" type="string"/>
+        <element attributes="import_attribute_name=Consumers Third Address,edge_encryption_enabled=true" label="Consumers Third Address" max_length="40" name="u_consumers_third_address" type="string"/>
+        <element attributes="import_attribute_name=DE,edge_encryption_enabled=true" label="DE" max_length="40" name="u_de" type="string"/>
+        <element attributes="import_attribute_name=Delete - New Accounts added to Rev 12,edge_encryption_enabled=true" label="Delete - New Accounts added to Rev 12" max_length="40" name="u_delete___new_dded_to_rev_12" type="string"/>
+        <element attributes="import_attribute_name=Department/Business Unit,edge_encryption_enabled=true" label="Department/Business Unit" max_length="40" name="u_department_business_unit" type="string"/>
+        <element attributes="import_attribute_name=Facility Category,edge_encryption_enabled=true" label="Facility Category" max_length="44" name="u_facility_category" type="string"/>
+        <element attributes="import_attribute_name=Facility Name,edge_encryption_enabled=true" label="Facility Name" max_length="59" name="u_facility_name" type="string"/>
+        <element attributes="import_attribute_name=Latitude,edge_encryption_enabled=true" label="Latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="import_attribute_name=Longitude,edge_encryption_enabled=true" label="Longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="import_attribute_name=Metric Description,edge_encryption_enabled=true" label="Metric Description" max_length="40" name="u_metric_description" type="string"/>
+        <element attributes="import_attribute_name=Metric Qty,edge_encryption_enabled=true" label="Metric Qty" max_length="40" name="u_metric_qty" type="string"/>
+        <element attributes="import_attribute_name=Metric Unit,edge_encryption_enabled=true" label="Metric Unit" max_length="40" name="u_metric_unit" type="string"/>
+        <element attributes="import_attribute_name=Mtr 1 Identification Number,edge_encryption_enabled=true" label="Mtr 1 Identification Number" max_length="40" name="u_mtr_1_identification_number" type="string"/>
+        <element attributes="import_attribute_name=Mtr 1 Tariff,edge_encryption_enabled=true" label="Mtr 1 Tariff" max_length="40" name="u_mtr_1_tariff" type="string"/>
+        <element attributes="import_attribute_name=Mtr 2 Identification Number,edge_encryption_enabled=true" label="Mtr 2 Identification Number" max_length="40" name="u_mtr_2_identification_number" type="string"/>
+        <element attributes="import_attribute_name=Mtr 2 Tariff,edge_encryption_enabled=true" label="Mtr 2 Tariff" max_length="40" name="u_mtr_2_tariff" type="string"/>
+        <element attributes="import_attribute_name=Mtr 3 Identification Number,edge_encryption_enabled=true" label="Mtr 3 Identification Number" max_length="40" name="u_mtr_3_identification_number" type="string"/>
+        <element attributes="import_attribute_name=Mtr 3 Tariff" label="Mtr 3 Tariff" max_length="40" name="u_mtr_3_tariff" type="integer"/>
+        <element attributes="import_attribute_name=Mtr 4 Identification Number,edge_encryption_enabled=true" label="Mtr 4 Identification Number" max_length="40" name="u_mtr_4_identification_number" type="string"/>
+        <element attributes="import_attribute_name=Mtr 4 Tariff" label="Mtr 4 Tariff" max_length="40" name="u_mtr_4_tariff" type="integer"/>
+        <element attributes="import_attribute_name=Mtr 5 Identification Number,edge_encryption_enabled=true" label="Mtr 5 Identification Number" max_length="40" name="u_mtr_5_identification_number" type="string"/>
+        <element attributes="import_attribute_name=Mtr 5 Tariff" label="Mtr 5 Tariff" max_length="40" name="u_mtr_5_tariff" type="integer"/>
+        <element attributes="import_attribute_name=Mtr 6 Identification Number,edge_encryption_enabled=true" label="Mtr 6 Identification Number" max_length="40" name="u_mtr_6_identification_number" type="string"/>
+        <element attributes="import_attribute_name=Mtr 6 Tariff" label="Mtr 6 Tariff" max_length="40" name="u_mtr_6_tariff" type="integer"/>
+        <element attributes="import_attribute_name=Mtr 7 Identification Number" label="Mtr 7 Identification Number" max_length="40" name="u_mtr_7_identification_number" type="float"/>
+        <element attributes="import_attribute_name=Mtr 7 Tariff" label="Mtr 7 Tariff" max_length="40" name="u_mtr_7_tariff" type="integer"/>
+        <element attributes="import_attribute_name=Mtr 8 Identification Number" label="Mtr 8 Identification Number" max_length="40" name="u_mtr_8_identification_number" type="float"/>
+        <element attributes="import_attribute_name=Mtr 8 Tariff" label="Mtr 8 Tariff" max_length="40" name="u_mtr_8_tariff" type="integer"/>
+        <element attributes="import_attribute_name=NMI,edge_encryption_enabled=true" label="NMI" max_length="40" name="u_nmi" type="string"/>
+        <element attributes="import_attribute_name=NTC,edge_encryption_enabled=true" label="NTC" max_length="40" name="u_ntc" type="string"/>
+        <element attributes="import_attribute_name=Property Id" label="Property Id" max_length="40" name="u_property_id" type="integer"/>
+        <element attributes="import_attribute_name=Section/Contact Person,edge_encryption_enabled=true" label="Section/Contact Person" max_length="40" name="u_section_contact_person" type="string"/>
+        <element attributes="import_attribute_name=Supply Type,edge_encryption_enabled=true" label="Supply Type" max_length="40" name="u_supply_type" type="string"/>
+        <element attributes="import_attribute_name=Tariff One,edge_encryption_enabled=true" label="Tariff One" max_length="40" name="u_tariff_one" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two" label="Tariff Two" max_length="40" name="u_tariff_two" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (AO),edge_encryption_enabled=true" label="Tariff Two (AO)" max_length="40" name="u_tariff_two__ao_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AP),edge_encryption_enabled=true" label="Tariff Two (AP)" max_length="40" name="u_tariff_two__ap_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AQ),edge_encryption_enabled=true" label="Tariff Two (AQ)" max_length="40" name="u_tariff_two__aq_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AR),edge_encryption_enabled=true" label="Tariff Two (AR)" max_length="40" name="u_tariff_two__ar_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AS),edge_encryption_enabled=true" label="Tariff Two (AS)" max_length="40" name="u_tariff_two__as_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AT),edge_encryption_enabled=true" label="Tariff Two (AT)" max_length="40" name="u_tariff_two__at_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AU),edge_encryption_enabled=true" label="Tariff Two (AU)" max_length="40" name="u_tariff_two__au_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AV),edge_encryption_enabled=true" label="Tariff Two (AV)" max_length="40" name="u_tariff_two__av_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AW)" label="Tariff Two (AW)" max_length="40" name="u_tariff_two__aw_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (AX)" label="Tariff Two (AX)" max_length="40" name="u_tariff_two__ax_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (AY),edge_encryption_enabled=true" label="Tariff Two (AY)" max_length="40" name="u_tariff_two__ay_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (AZ),edge_encryption_enabled=true" label="Tariff Two (AZ)" max_length="40" name="u_tariff_two__az_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BA),edge_encryption_enabled=true" label="Tariff Two (BA)" max_length="40" name="u_tariff_two__ba_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BB),edge_encryption_enabled=true" label="Tariff Two (BB)" max_length="40" name="u_tariff_two__bb_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BC)" label="Tariff Two (BC)" max_length="40" name="u_tariff_two__bc_" type="float"/>
+        <element attributes="import_attribute_name=Tariff Two (BD),edge_encryption_enabled=true" label="Tariff Two (BD)" max_length="40" name="u_tariff_two__bd_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BE)" label="Tariff Two (BE)" max_length="40" name="u_tariff_two__be_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BF),edge_encryption_enabled=true" label="Tariff Two (BF)" max_length="40" name="u_tariff_two__bf_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BG),edge_encryption_enabled=true" label="Tariff Two (BG)" max_length="40" name="u_tariff_two__bg_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BH),edge_encryption_enabled=true" label="Tariff Two (BH)" max_length="40" name="u_tariff_two__bh_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BI),edge_encryption_enabled=true" label="Tariff Two (BI)" max_length="40" name="u_tariff_two__bi_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BJ),edge_encryption_enabled=true" label="Tariff Two (BJ)" max_length="40" name="u_tariff_two__bj_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BK),edge_encryption_enabled=true" label="Tariff Two (BK)" max_length="40" name="u_tariff_two__bk_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BL),edge_encryption_enabled=true" label="Tariff Two (BL)" max_length="40" name="u_tariff_two__bl_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BM),edge_encryption_enabled=true" label="Tariff Two (BM)" max_length="40" name="u_tariff_two__bm_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BN)" label="Tariff Two (BN)" max_length="40" name="u_tariff_two__bn_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BO)" label="Tariff Two (BO)" max_length="40" name="u_tariff_two__bo_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BP)" label="Tariff Two (BP)" max_length="40" name="u_tariff_two__bp_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BQ)" label="Tariff Two (BQ)" max_length="40" name="u_tariff_two__bq_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BR)" label="Tariff Two (BR)" max_length="40" name="u_tariff_two__br_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BS)" label="Tariff Two (BS)" max_length="40" name="u_tariff_two__bs_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BT)" label="Tariff Two (BT)" max_length="40" name="u_tariff_two__bt_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BU),edge_encryption_enabled=true" label="Tariff Two (BU)" max_length="40" name="u_tariff_two__bu_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (BV)" label="Tariff Two (BV)" max_length="40" name="u_tariff_two__bv_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BW)" label="Tariff Two (BW)" max_length="40" name="u_tariff_two__bw_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BX)" label="Tariff Two (BX)" max_length="40" name="u_tariff_two__bx_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BY)" label="Tariff Two (BY)" max_length="40" name="u_tariff_two__by_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (BZ)" label="Tariff Two (BZ)" max_length="40" name="u_tariff_two__bz_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (CA)" label="Tariff Two (CA)" max_length="40" name="u_tariff_two__ca_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (CB)" label="Tariff Two (CB)" max_length="40" name="u_tariff_two__cb_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (CC),edge_encryption_enabled=true" label="Tariff Two (CC)" max_length="40" name="u_tariff_two__cc_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CD),edge_encryption_enabled=true" label="Tariff Two (CD)" max_length="40" name="u_tariff_two__cd_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CE),edge_encryption_enabled=true" label="Tariff Two (CE)" max_length="40" name="u_tariff_two__ce_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CF),edge_encryption_enabled=true" label="Tariff Two (CF)" max_length="40" name="u_tariff_two__cf_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CG),edge_encryption_enabled=true" label="Tariff Two (CG)" max_length="40" name="u_tariff_two__cg_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CH)" label="Tariff Two (CH)" max_length="15" name="u_tariff_two__ch_" type="decimal"/>
+        <element attributes="import_attribute_name=Tariff Two (CI),edge_encryption_enabled=true" label="Tariff Two (CI)" max_length="40" name="u_tariff_two__ci_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CJ),edge_encryption_enabled=true" label="Tariff Two (CJ)" max_length="40" name="u_tariff_two__cj_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CK),edge_encryption_enabled=true" label="Tariff Two (CK)" max_length="40" name="u_tariff_two__ck_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CL),edge_encryption_enabled=true" label="Tariff Two (CL)" max_length="42" name="u_tariff_two__cl_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CM),edge_encryption_enabled=true" label="Tariff Two (CM)" max_length="40" name="u_tariff_two__cm_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CN),edge_encryption_enabled=true" label="Tariff Two (CN)" max_length="40" name="u_tariff_two__cn_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CO),edge_encryption_enabled=true" label="Tariff Two (CO)" max_length="40" name="u_tariff_two__co_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CP),edge_encryption_enabled=true" label="Tariff Two (CP)" max_length="42" name="u_tariff_two__cp_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CQ),edge_encryption_enabled=true" label="Tariff Two (CQ)" max_length="40" name="u_tariff_two__cq_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CR),edge_encryption_enabled=true" label="Tariff Two (CR)" max_length="40" name="u_tariff_two__cr_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CS),edge_encryption_enabled=true" label="Tariff Two (CS)" max_length="40" name="u_tariff_two__cs_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CT)" label="Tariff Two (CT)" max_length="40" name="u_tariff_two__ct_" type="integer"/>
+        <element attributes="import_attribute_name=Tariff Two (CU),edge_encryption_enabled=true" label="Tariff Two (CU)" max_length="40" name="u_tariff_two__cu_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CV),edge_encryption_enabled=true" label="Tariff Two (CV)" max_length="40" name="u_tariff_two__cv_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CW),edge_encryption_enabled=true" label="Tariff Two (CW)" max_length="40" name="u_tariff_two__cw_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CX),edge_encryption_enabled=true" label="Tariff Two (CX)" max_length="40" name="u_tariff_two__cx_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CY),edge_encryption_enabled=true" label="Tariff Two (CY)" max_length="40" name="u_tariff_two__cy_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (CZ),edge_encryption_enabled=true" label="Tariff Two (CZ)" max_length="81" name="u_tariff_two__cz_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (DA),edge_encryption_enabled=true" label="Tariff Two (DA)" max_length="62" name="u_tariff_two__da_" type="string"/>
+        <element attributes="import_attribute_name=Tariff Two (DB)" label="Tariff Two (DB)" max_length="40" name="u_tariff_two__db_" type="integer"/>
+        <element attributes="import_attribute_name=TCC Division,edge_encryption_enabled=true" label="TCC Division" max_length="40" name="u_tcc_division" type="string"/>
+    </element>
+</database>
